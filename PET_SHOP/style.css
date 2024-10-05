@@ -10,7 +10,7 @@
   /* Define a fonte principal, cor do fundo e cor do texto */
   body {
     font-family: 'Arial', sans-serif; /* Define uma fonte sans-serif para ser amigável e fácil de ler */
-    background-color: #f2f8ff; /* Cor de fundo suave para o site */
+    background-color: #000; /* Cor de fundo suave para o site */
     color: #333; /* Cor padrão para o texto */
     line-height: 1.6; /* Melhora a legibilidade aumentando o espaçamento entre linhas */
   }
@@ -18,14 +18,14 @@
   /* ESTILOS DO CABEÇALHO */
   /* Define o layout do cabeçalho e seu conteúdo */
   header {
-    background-color: #ffcc00; /* Cor vibrante para o cabeçalho */
-    padding: 20px 0; /* Espaçamento superior e inferior */
+    background-color: #F6A2C4; /* Cor vibrante para o cabeçalho */
+    padding: 20px 0 0 20px; /* Espaçamento superior e inferior */
     text-align: center; /* Centraliza o conteúdo do cabeçalho */
-    border-bottom: 4px solid #ff9900; /* Adiciona uma borda na parte inferior para destaque */
+    border-bottom: 4px solid #000; /* Adiciona uma borda na parte inferior para destaque */
   }
   
   .logo img {
-    width: 180px; /* Tamanho da imagem da logo */
+    width: 150px; /* Tamanho da imagem da logo */
   }
   
   /* NAVEGAÇÃO */
@@ -34,9 +34,10 @@
     list-style: none; /* Remove os marcadores da lista */
     display: flex; /* Coloca os itens em linha */
     justify-content: center; /* Centraliza os itens dentro do container */
-    margin-top: 10px; /* Espaçamento superior entre o logo e a navegação */
+    position: relative;
+    /* Espaçamento superior entre o logo e a navegação */
   }
-  
+
   nav ul li {
     margin: 0 20px; /* Espaçamento lateral entre os links */
   }
@@ -50,7 +51,7 @@
   }
   
   nav ul li a:hover {
-    color: #ff9900; /* Muda a cor dos links ao passar o mouse */
+    color: white; /* Muda a cor dos links ao passar o mouse */
   }
   
   /* ESTILOS DO BANNER */
@@ -58,7 +59,7 @@
   .banner {
     position: relative; /* Necessário para posicionar o texto sobre a imagem */
     text-align: center; /* Centraliza o texto dentro da seção */
-    margin-bottom: 30px; /* Espaçamento inferior */
+    margin-bottom: px; /* Espaçamento inferior */
   }
   
   .banner img {
@@ -93,12 +94,12 @@
   .sobre-nos {
     text-align: center; /* Centraliza o texto */
     padding: 50px 20px; /* Espaçamento interno superior e inferior */
-    background-color: #fff6e6; /* Cor de fundo clara e alegre */
+    background-color: #F6A2C4; /* Cor de fundo clara e alegre */
   }
   
   .sobre-nos h2 {
     font-size: 36px; /* Tamanho grande para o título */
-    color: #ff9900; /* Cor vibrante para o título */
+    color: #000; /* Cor vibrante para o título */
     margin-bottom: 20px; /* Espaçamento inferior entre o título e o parágrafo */
   }
   
@@ -109,7 +110,7 @@
   }
   
   .sobre-nos .botao {
-    background-color: #ff9900; /* Cor do botão */
+    background-color: #050403; /* Cor do botão */
     color: white; /* Cor do texto do botão */
     padding: 10px 20px; /* Espaçamento interno */
     text-decoration: none; /* Remove o sublinhado */
@@ -119,19 +120,20 @@
   }
   
   .sobre-nos .botao:hover {
-    background-color: #ffcc00; /* Cor do botão ao passar o mouse */
+    background-color: #0a0905b8; /* Cor do botão ao passar o mouse */
+    color: rgb(255, 255, 255);
   }
   
   /* RODAPÉ */
   footer {
-    background-color: #ffcc00; /* Cor de fundo do rodapé */
+    background-color: #080601; /* Cor de fundo do rodapé */
     text-align: center; /* Centraliza o texto */
     padding: 20px 0; /* Espaçamento interno superior e inferior */
     font-size: 14px; /* Tamanho da fonte */
     color: #333; /* Cor do texto */
-    border-top: 4px solid #ff9900; /* Adiciona uma borda superior */
+    border-top: 4px solid #0d0c0b; /* Adiciona uma borda superior */
   }
-  
+
   /* PÁGINAS INTERNAS (SERVIÇOS, SOBRE, CONTATO) */
   .servicos, .sobre, .contato {
     padding: 50px 20px; /* Espaçamento interno */
@@ -140,7 +142,7 @@
   
   .servicos h1, .sobre h1, .contato h1 {
     font-size: 36px; /* Tamanho grande para os títulos */
-    color: #ff9900; /* Cor vibrante */
+    color: white; /* Cor vibrante */
     margin-bottom: 30px; /* Espaçamento inferior entre o título e o conteúdo */
   }
   
